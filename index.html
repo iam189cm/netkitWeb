@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NETKit v1.2 - 专业网络工程师工具箱</title>
+    <meta name="description" content="NETKit是专为网络工程师设计的专业工具箱，集成IP配置管理、网络扫描、子网计算等功能。">
+    <meta name="keywords" content="网络工程师,IP配置,网络扫描,子网计算,网络工具">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔧</text></svg>">
+</head>
+<body>
+    <!-- 页面头部 -->
+    <header class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="logo">🔧</span>
+                        NETKit v1.2
+                    </h1>
+                    <p class="hero-subtitle">专业网络工程师工具箱</p>
+                    <p class="hero-description">
+                        集成IP配置管理、网络扫描、子网计算于一体的专业网络管理工具
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#download" class="btn btn-primary">立即下载</a>
+                        <a href="#features" class="btn btn-secondary">了解功能</a>
+                    </div>
+                    <div class="version-info">
+                        <span class="badge">v1.2.0</span>
+                        <span class="badge">Windows 10+</span>
+                        <span class="badge">免费使用</span>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="mockup">
+                        <div class="mockup-header">
+                            <div class="mockup-buttons">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <div class="mockup-title">NETKit v1.2</div>
+                        </div>
+                        <div class="mockup-content">
+                            <div class="mockup-tabs">
+                                <span class="active">IP配置</span>
+                                <span>Ping测试</span>
+                                <span>子网计算</span>
+                            </div>
+                            <div class="mockup-body">
+                                <div class="mockup-form">
+                                    <div class="form-group">
+                                        <label>IP地址:</label>
+                                        <input type="text" value="192.168.1.100">
+                                    </div>
+                                    <div class="form-group">
+                                        <label>子网掩码:</label>
+                                        <input type="text" value="255.255.255.0">
+                                    </div>
+                                    <div class="form-group">
+                                        <label>默认网关:</label>
+                                        <input type="text" value="192.168.1.1">
+                                    </div>
+                                    <button class="mockup-btn">应用配置</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- 功能特性 -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">核心功能</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🖥️</div>
+                    <h3>IP配置管理</h3>
+                    <ul>
+                        <li>智能网卡识别</li>
+                        <li>快速IP配置</li>
+                        <li>DHCP快速切换</li>
+                        <li>实时状态监控</li>
+                    </ul>
+                    <p class="feature-desc">一键设置静态IP地址、子网掩码、网关和DNS，支持所有网络适配器。</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🏓</div>
+                    <h3>网络扫描工具</h3>
+                    <ul>
+                        <li>可视化网格扫描</li>
+                        <li>高性能并发扫描</li>
+                        <li>智能范围识别</li>
+                        <li>实时进度显示</li>
+                    </ul>
+                    <p class="feature-desc">多线程并发ping，快速完成网段扫描，直观显示在线设备。</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>子网计算器</h3>
+                    <ul>
+                        <li>多格式输入支持</li>
+                        <li>完整子网信息</li>
+                        <li>VLSM计算</li>
+                        <li>子网划分工具</li>
+                    </ul>
+                    <p class="feature-desc">支持CIDR格式，智能子网划分和地址规划，二进制显示。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 技术规格 -->
+    <section class="specs">
+        <div class="container">
+            <h2 class="section-title">技术规格</h2>
+            <div class="specs-grid">
+                <div class="spec-item">
+                    <h4>开发技术</h4>
+                    <p>C# 12.0 + .NET 9.0</p>
+                </div>
+                <div class="spec-item">
+                    <h4>系统要求</h4>
+                    <p>Windows 10/11 (x64)</p>
+                </div>
+                <div class="spec-item">
+                    <h4>运行权限</h4>
+                    <p>管理员权限</p>
+                </div>
+                <div class="spec-item">
+                    <h4>内存需求</h4>
+                    <p>最低 100MB</p>
+                </div>
+                <div class="spec-item">
+                    <h4>架构设计</h4>
+                    <p>分层架构 + 模块化</p>
+                </div>
+                <div class="spec-item">
+                    <h4>许可证</h4>
+                    <p>MIT 开源许可</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 使用场景 -->
+    <section class="use-cases">
+        <div class="container">
+            <h2 class="section-title">适用场景</h2>
+            <div class="use-cases-grid">
+                <div class="use-case">
+                    <h3>🔧 网络工程师日常工作</h3>
+                    <p>现场调试、故障排查、网络规划</p>
+                </div>
+                <div class="use-case">
+                    <h3>💼 IT运维管理</h3>
+                    <p>批量配置、设备发现、地址管理</p>
+                </div>
+                <div class="use-case">
+                    <h3>📚 教学培训</h3>
+                    <p>网络原理、实践操作、故障模拟</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 下载区域 -->
+    <section id="download" class="download">
+        <div class="container">
+            <div class="download-content">
+                <h2>下载 NETKit v1.2</h2>
+                <p class="download-desc">
+                    专为网络工程师设计的专业工具箱，完全免费使用
+                </p>
+                <div class="download-info">
+                    <div class="info-item">
+                        <strong>版本</strong>
+                        <span>v1.2.0</span>
+                    </div>
+                    <div class="info-item">
+                        <strong>大小</strong>
+                        <span>约 15MB</span>
+                    </div>
+                    <div class="info-item">
+                        <strong>系统</strong>
+                        <span>Windows 10/11</span>
+                    </div>
+                    <div class="info-item">
+                        <strong>更新</strong>
+                        <span>2025年1月</span>
+                    </div>
+                </div>
+                <div class="download-buttons">
+                    <a href="downloads/NETKit-v1.2.exe" class="btn btn-download" onclick="trackDownload()">
+                        <span class="btn-icon">⬇️</span>
+                        立即下载
+                    </a>
+                    <a href="https://github.com/iam189cm/NETKit" class="btn btn-github" target="_blank">
+                        <span class="btn-icon">📁</span>
+                        查看源码
+                    </a>
+                </div>
+                <p class="download-note">
+                    ⚠️ 请以管理员身份运行，确保网络配置功能正常工作
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页面底部 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>NETKit v1.2</h3>
+                    <p>专业网络工程师工具箱</p>
+                </div>
+                <div class="footer-links">
+                    <h4>相关链接</h4>
+                    <ul>
+                        <li><a href="https://github.com/iam189cm/NETKit" target="_blank">GitHub 仓库</a></li>
+                        <li><a href="https://github.com/iam189cm/NETKit/issues" target="_blank">问题反馈</a></li>
+                        <li><a href="https://github.com/iam189cm/NETKit/releases" target="_blank">版本历史</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>技术支持</h4>
+                    <p>GitHub Issues: 提交bug报告和功能建议</p>
+                    <p>开源项目，欢迎贡献代码</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 NETKit. 基于 MIT 许可证开源发布.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
