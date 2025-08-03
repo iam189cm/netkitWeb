@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NETKit v1.5.1 - 网络工程师工具箱</title>
+    <title>NETKit v2.0.1 - 网络工程师工具箱</title>
     <meta name="description" content="NETKit是一个实用的网络工具箱，集成IP配置管理、网络扫描、子网计算等功能。">
     <meta name="keywords" content="网络工程师,IP配置,网络扫描,子网计算,网络工具">
     <link rel="stylesheet" href="style.css">
@@ -17,23 +17,38 @@
                 <div class="hero-text">
                     <h1 class="hero-title">
                         <span class="logo">🔧</span>
-                        NETKit v1.5.1
+                        NETKit v2.0.1
                     </h1>
                     <p class="hero-subtitle">网络工程师工具箱</p>
                     <p class="hero-description">
                         集成IP配置管理、网络扫描、子网计算于一体的实用网络管理工具
                     </p>
                     <div class="hero-buttons">
-                        <a href="https://iam189cm.oss-cn-shanghai.aliyuncs.com/NETKit/NETKit%20v1.5.1.exe" class="btn btn-primary" onclick="trackDownload()">立即下载</a>
+                        <a href="https://iam189cm.oss-cn-shanghai.aliyuncs.com/NETKit/NetKit-v2.0.1.exe" class="btn btn-primary" onclick="trackDownload()">立即下载</a>
                     </div>
                     <div class="version-info">
-                        <span class="badge">v1.5.1</span>
+                        <span class="badge">v2.0.1</span>
                         <span class="badge">Windows 10+</span>
                         <span class="badge">免费使用</span>
                     </div>
                 </div>
                 <div class="hero-image">
-                    <img src="images/p1.jpg" alt="NETKit v1.5.1 软件截图" class="software-screenshot">
+                    <div class="screenshot-carousel">
+                        <div class="screenshot-container">
+                            <img src="images/p1.jpg" alt="NETKit v2.0.1 软件截图 1" class="software-screenshot active" data-index="0">
+                            <img src="images/p2.jpg" alt="NETKit v2.0.1 软件截图 2" class="software-screenshot" data-index="1">
+                            <img src="images/p3.jpg" alt="NETKit v2.0.1 软件截图 3" class="software-screenshot" data-index="2">
+                        </div>
+                        <div class="carousel-controls">
+                            <button class="carousel-btn prev-btn" onclick="previousImage()">⬅️</button>
+                            <div class="carousel-dots">
+                                <span class="dot active" onclick="currentImage(0)"></span>
+                                <span class="dot" onclick="currentImage(1)"></span>
+                                <span class="dot" onclick="currentImage(2)"></span>
+                            </div>
+                            <button class="carousel-btn next-btn" onclick="nextImage()">➡️</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

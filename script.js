@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
     initSmoothScroll();
     initDownloadTracking();
     initMockupInteraction();
+    initScreenshotCarousel();
 });
 
 // 平滑滚动功能
@@ -159,5 +160,54 @@ function checkBrowserCompatibility() {
 // 初始化兼容性检查
 checkBrowserCompatibility();
 
+// 截图轮播功能
+let currentImageIndex = 0;
+const totalImages = 3;
+
+// 初始化截图轮播
+function initScreenshotCarousel() {
+    console.log('初始化截图轮播功能');
+    
+    // 自动轮播（可选）
+    // setInterval(nextImage, 5000); // 每5秒自动切换
+}
+
+// 显示指定索引的图片
+function showImage(index) {
+    const screenshots = document.querySelectorAll('.software-screenshot');
+    const dots = document.querySelectorAll('.dot');
+    
+    // 隐藏所有图片
+    screenshots.forEach(img => img.classList.remove('active'));
+    dots.forEach(dot => dot.classList.remove('active'));
+    
+    // 显示指定图片
+    if (screenshots[index]) {
+        screenshots[index].classList.add('active');
+        dots[index].classList.add('active');
+        currentImageIndex = index;
+    }
+}
+
+// 显示下一张图片
+function nextImage() {
+    const nextIndex = (currentImageIndex + 1) % totalImages;
+    showImage(nextIndex);
+}
+
+// 显示上一张图片
+function previousImage() {
+    const prevIndex = (currentImageIndex - 1 + totalImages) % totalImages;
+    showImage(prevIndex);
+}
+
+// 显示指定图片（供HTML调用）
+function currentImage(index) {
+    showImage(index);
+}
+
 // 全局函数，供HTML调用
 window.trackDownload = trackDownload;
+window.nextImage = nextImage;
+window.previousImage = previousImage;
+window.currentImage = currentImage;
