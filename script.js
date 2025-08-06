@@ -162,7 +162,7 @@ checkBrowserCompatibility();
 
 // 截图轮播功能
 let currentImageIndex = 0;
-const totalImages = 3;
+const totalImages = 4;
 
 // 初始化截图轮播
 function initScreenshotCarousel() {
