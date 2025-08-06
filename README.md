@@ -1,6 +1,6 @@
-# NETKit 网站
+# Netkit 网站
 
-这是NETKit工具的官方网站，提供软件下载和相关信息。
+这是Netkit工具的官方网站，提供软件下载和相关信息。
 
 ## 🚀 快速部署
 
@@ -51,7 +51,7 @@ php -S localhost:8000
 网站会自动重新部署。
 
 ## 🌐下载链接
-https://iam189cm.oss-cn-shanghai.aliyuncs.com/NETKit/NetKit-v2.1.0.exe
+https://iam189cm.oss-cn-shanghai.aliyuncs.com/Netkit/Netkit-v2.1.0.exe
 
 ## 🌐 访问地址
 
@@ -59,4 +59,4 @@ https://iam189cm.oss-cn-shanghai.aliyuncs.com/NETKit/NetKit-v2.1.0.exe
 
 ## 📝 许可证
 
-此项目仅用于NETKit工具的分发和展示。
+此项目仅用于Netkit工具的分发和展示。

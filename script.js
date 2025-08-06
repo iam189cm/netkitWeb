@@ -1,8 +1,8 @@
-// NETKit网站交互脚本
+// Netkit网站交互脚本
 
 // 页面加载完成后执行
 document.addEventListener('DOMContentLoaded', function() {
-    console.log('NETKit网站已加载');
+    console.log('Netkit网站已加载');
     
     // 初始化功能
     initSmoothScroll();
