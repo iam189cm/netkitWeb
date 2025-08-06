@@ -51,7 +51,7 @@ php -S localhost:8000
 网站会自动重新部署。
 
 ## 🌐下载链接
-https://iam189cm.oss-cn-shanghai.aliyuncs.com/NETKit/NetKit-v2.0.1.exe
+https://iam189cm.oss-cn-shanghai.aliyuncs.com/NETKit/NetKit-v2.1.0.exe
 
 ## 🌐 访问地址
 
